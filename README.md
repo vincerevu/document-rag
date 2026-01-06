@@ -1,6 +1,6 @@
-# RAGForge
+# document-rag
 
-RAGForge is a full-stack Retrieval-Augmented Generation app for uploading knowledge sources, indexing them into a local vector store, and chatting with citations. It combines a Next.js frontend, a FastAPI backend, ChromaDB, SQLite, and pluggable LLM providers.
+document-rag is a full-stack Retrieval-Augmented Generation app for uploading knowledge sources, indexing them into a local vector store, and chatting with citations. It combines a Next.js frontend, a FastAPI backend, ChromaDB, SQLite, and pluggable LLM providers.
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-black?style=flat-square&logo=next.js)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -121,7 +121,7 @@ WATSONX_MODEL=ibm/granite-13b-chat-v2
 WATSONX_EMBEDDING_MODEL=ibm/slate-125m-english-rtrvr
 
 CHROMA_PERSIST_DIR=./chromadb
-SQLITE_DB_PATH=./data/ragforge.db
+SQLITE_DB_PATH=./data/document-rag.db
 
 CHUNK_SIZE=1000
 CHUNK_OVERLAP=200
